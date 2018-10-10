@@ -22,7 +22,9 @@ $colors.ErrorForegroundColor = "white"
 $colors.ErrorBackgroundColor = "red"
 $console.BackgroundColor = "Black"
 $console.ForegroundColor = "Gray"
-$console.WindowTitle = $AdminTitle + "Windows PowerShell $($PSVersionTable.PSVersion.Major).$($PSVersionTable.PSVersion.Minor)
+
+$console.WindowTitle = $AdminTitle + "Windows PowerShell $($PSVersionTable.PSVersion.Major).$($PSVersionTable.PSVersion.Minor)"
+
 $Size = $console.WindowSize
 $Size.width = 108
 $Size.height = 30
@@ -31,7 +33,7 @@ $console.WindowSize = $Size
 $Size = $console.BufferSize
 $Size.width = 108
 $Size.height = 5000
-$console.BufferSize = $Size"
+$console.BufferSize = $Size
 
 $MaximumHistoryCount = 10000
 
